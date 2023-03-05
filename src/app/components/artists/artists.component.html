@@ -1,0 +1,48 @@
+<h1>NOMBRE DEL ARTISTA: {{artista.name}}</h1>
+<img src="{{imagenURL.url}}" alt="">
+<br>
+
+
+<button (click)="redirect()">PERFIL EN APLICACION SPOTIFY</button>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<ng-container *ngFor="let item of topTracks.tracks">
+    <table>
+        <tr>
+          <th>NOMBRE</th>
+          <br>
+          <th>LINK EN APLICACION </th>
+          <br>
+
+          <th>preview</th>
+        </tr>
+
+        <tr>
+          <td>{{item.name}}</td>
+          <br>
+
+          <td>
+            <button (click)="redirectSong(item.external_urls)">CANCION EN APP</button>
+
+          </td>
+          <br>
+
+          <td>
+            <iframe src="{{item.preview_url}} | safe" width="500" height="600"></iframe>
+
+          </td>
+          <br>
+
+        </tr>
+        <br>        <br>
+      </table>
+</ng-container>
+
+

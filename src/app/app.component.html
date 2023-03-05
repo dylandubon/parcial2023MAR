@@ -1,0 +1,82 @@
+<mat-toolbar color="ThemePalette">
+ 
+ 
+    <button mat-icon-button class="example-icon" aria-label="menu" (click)="changePage(0)"  matTooltip="HOME"  >
+       <mat-icon>home</mat-icon>
+     </button>  
+ 
+     <!--<img class="img-app" src="../../../../assets/images/instructor.jpg">
+  
+     -->
+     <span>Desarollo Web I Dylan Dubon</span>
+     <span class="example-spacer"></span>
+ 
+     <button mat-icon-button class="example-icon"  (click)="changePage(1)"  matTooltip="VISION"   >
+       <mat-icon>favorite</mat-icon>
+     </button>
+     <button mat-icon-button class="example-icon"  (click)="changePage(2)" matTooltip="MISION"   >
+       <mat-icon>remove_red_eye</mat-icon>
+     </button>
+     <button mat-icon-button class="find_in_page"   (click)="changePage(3)" matTooltip="PRODUCTOS"   >
+       <mat-icon>add_shopping_cart</mat-icon>
+     </button>
+   </mat-toolbar>
+   <div class="grid">
+     <div class="grid">
+         <div class="grid">
+           <div class="grid">
+               <router-outlet></router-outlet>
+           </div>
+       </div>
+     </div>
+   </div>
+   <div class="hero-full-wrapper">
+    <div class="grid">
+      
+      <div class="grid-item">
+        <router-outlet></router-outlet>
+          <div class="project-text-holder">
+            <div class="project-text-inner">
+            </div>
+          </div>
+    
+      </div>
+
+      <div class="grid-item">
+        <router-outlet></router-outlet>                     
+            </div>
+          </div>
+      </div>
+
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+      </div>
+
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+            </div>
+        
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+      </div>
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+      </div>
+
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+      </div>
+
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+      </div>
+
+      <div class="grid-item">
+        <router-outlet></router-outlet> 
+      </div>
+
+ 
+
+
+
+ 

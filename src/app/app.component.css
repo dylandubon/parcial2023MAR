@@ -1,0 +1,114 @@
+.example-icon {
+    padding: 0 14px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  body{background-color: rgb(233, 233, 233);
+    
+    height: 90%;}
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: none;
+        background-color: #333;
+        position: fixed;
+        z-index: 100;
+        width: 100% !important;
+    
+    
+    }
+    
+    li {
+    
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+    
+    .grid img, .video{ width: 100%;
+        border: 3px solid white;
+        
+    
+    }
+    
+    .produtos {  padding-left: 0 !important;
+                 padding-right: 0 !important;
+                 width: 100% !important; }
+    
+    
+    img{transition: all 0.5s ease;}
+    
+    *{box-sizing: border-box;}
+    
+    article{padding-top: 2.5%;}
+    
+    .active{background-color: rgb(20, 20, 20);}
+    
+    aside{
+    
+    float: right;
+    padding-top: 4%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 20% !important;
+    
+    
+    }
+    
+    img:hover {transform: scale(0.9); }
+    
+    .grid { 
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row: auto ;
+        grid-row-gap: 10px;
+      
+    }
+    
+    .gridfooter { 
+        padding-top: 5px;
+        display: grid;
+        grid-template-columns: 15% auto ; 
+        grid-row: auto ;
+        grid-row-gap: 0%;}
+    
+    
+    
+    article{width: 80%; float: left; }
+    
+    figcaption {
+        display: none;
+        background-color: rgb(180, 180, 180);
+        color: rgb(10, 10, 19);
+    
+    }
+    
+    .grid-item:hover figcaption{display: block; }
+    
+    footer{
+    
+        clear: both;
+        background-color: rgb(182, 178, 178);
+        height: 35px;
+        width: 100%;
+        margin: 0%;    
+    }
+    

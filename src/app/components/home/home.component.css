@@ -1,0 +1,78 @@
+.example-card {
+
+    width: 100%;
+
+}
+  
+div.relative {
+  
+  position: fixed;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+body{background-color: rgb(61, 86, 251);
+    
+  height: 90%;}
+ 
+  .grid img, .video{ width: 100%;
+      border: 3px solid white;
+      
+  
+  }
+  
+  .produtos {  padding-left: 0 !important;
+               padding-right: 0 !important;
+               width: 100% !important; }
+  
+  
+  img{transition: all 0.5s ease;}
+  
+  *{box-sizing: border-box;}
+  
+  article{padding-top: 2.5%;}
+  
+  .active{background-color: rgb(8, 22, 111);}
+  
+  aside{
+  
+  float: right;
+  padding-top: 4%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 20% !important;
+  
+  
+  }
+  
+  img:hover {transform: scale(0.9); }
+  
+  .grid { 
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-row: auto ;
+      grid-row-gap: 10px;
+    
+  }
+  
+  .gridfooter { 
+      padding-top: 5px;
+      display: grid;
+      grid-template-columns: 15% auto ; 
+      grid-row: auto ;
+      grid-row-gap: 0%;}
+  
+  
+  
+  article{width: 80%; float: left; }
+  
+  figcaption {
+      display: none;
+      background-color: rgb(180, 180, 180);
+      color: rgb(10, 10, 19);
+  
+  }
+  
+  .grid-item:hover figcaption{display: block; }
+
